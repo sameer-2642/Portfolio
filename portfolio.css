@@ -1,0 +1,257 @@
+*{
+    margin:0 ;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(0,0,33);
+    color: white;
+    font-size: 14px;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(39, 2, 98);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+nav ul li a:hover{
+    color: lightsalmon;
+    
+}
+main hr{
+    border: 0;
+    background-color:  rgb(133, 133, 209);
+    height: 1.2px;
+    margin: 20px 84px 60px;
+    margin-top: 110px;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+.left{
+    font-size: 1.5rem;
+}
+
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 120px 0 0 0;
+    height: 65vh;
+}
+.firstSection > div{
+    width: 30%;
+}
+.leftSection{
+   font-size: 3rem;
+   
+}
+.rightSection img{
+    width: 80%;
+    margin: 50px 0;
+}
+.purple{
+    color: steelblue;
+}
+#element{
+    color:steelblue;
+}
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+main h1{
+    font-size: 1.8rem;
+    padding-top: 65px;
+}
+.secondSection .box{
+    background: white;
+    width: 70vw;
+    height: 2px;
+    margin: 100px 0 0 0 ;
+    display: flex;
+    justify-content: space-between;
+}
+.secondSection .vertical{
+    height: 75px;
+    width: 1px;
+    background-color: white;
+    
+}
+.secondSection .vertical-title{
+    position: relative;
+    top: 75px;
+    width: 150px;
+}
+.secondSection .vertical-desc{
+    position: relative;
+    top: 75px;
+    width: 300px;
+}
+.secondSection .vertical-result{
+    position: relative;
+    top: 75px;
+    width: 150px;
+}
+footer{
+   background-color: rgb(14, 3, 63);
+   height: 250px;
+   bottom: 0;
+}
+.footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+footer ul{
+    list-style: none;
+}
+.textrights{
+    text-align: center;
+    color: rgb(238, 238, 238);
+    padding: 12px 0;
+}
+.thirdsection h2{
+    margin-bottom:50px;
+}
+.thirdsection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+.thirdsection p{
+    margin: 50px;
+    font-size: 1rem;
+}
+.thirdsection> div{
+    display: flex;
+    justify-content: space-evenly;
+}
+.thirdsection .skills img{
+    width: 70px;
+    height: 70px;
+    border: 5px solid rgb(5, 5, 91);
+    box-shadow: 0 0 5px;
+    object-fit: contain;
+}
+
+.thirdsection .skills div{
+    position: relative;
+    top: 10px;
+    text-align: center;
+}
+.fourthsection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+.fourthsection .projects-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 0 0 ;
+}
+
+.fourthsection .projects-container{
+    background: white;
+    width: 65vw;
+    height: 2px;
+    margin: 100px 0 0 0 ;
+    display: flex;
+    justify-content: space-between;
+}
+.fourthsection .projects{
+    height: 75px;
+    width: 1px;
+    background-color: white;
+}
+.fourthsection .title{
+    position: relative;
+    top: 75px;
+    width: 150px;
+}
+.fourthsection .desc{
+    position: relative;
+    top: 80px;
+    width: 300px;
+    height: 100px;
+    color: rgb(160, 160, 239);
+}
+
+.fourthsection .projects .stack-title{
+    position: relative;
+    top: 60px;
+    width: 100px;
+}
+.fourthsection .projects .tech-stack{
+    position: relative;
+    top: 70px;
+    display: flex;
+    /* justify-content:space-around; */
+    width: 250px;
+    /* margin: 0 0 0 40px; */
+}
+.fourthsection .projects .stack-language img{
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgb(114, 112, 216);
+    object-fit: contain;
+    box-shadow: 0 0 5px;
+}
+
+.fourthsection .projects .stack-language .stack-name{
+    text-align: center;
+}
+
+.fourthsection .projects .stack-language{
+    margin: 0 0 0 10px;
+}
+.fifthsection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+.fifthsection .contact-container .social img{
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgb(170, 170, 212);
+    object-fit: contain;
+    background-color: white;
+    border-radius: 50%;
+    object-fit: contain;
+    box-shadow: 0 0 15px;
+    
+}
+.fifthsection .contact-container .social{
+    /* display: flex; */
+    width: 30px;
+    height: 30px;
+}
+
+.fifthsection .contact-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+
+.fifthsection .contact-container .social a{
+    text-decoration: none;
+}
